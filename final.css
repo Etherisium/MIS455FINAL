@@ -94,3 +94,80 @@ footer {
                             
 
 p{color:white;}
+
+               
+.button {background-color: rgb(250, 135, 166); 
+    border:rgb(139, 0, 0);
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center;
+
+    display: inline-block; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px; 
+                    
+                }
+
+.button:hover {  background-color: #b30077;}
+
+#container2 {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   
+               
+.innerStyle { height:fit-content;
+    width: 500px;;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(251, 226, 236);
+    box-sizing: border-box; 
+    
+    }
+
+                   
+.innerStyle {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #791d48;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(251, 226, 236);
+    text-align: center;
+    }
+
+
+.innerStyle img { max-width: 50%; 
+        height: auto; 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;}
+                       
+                    
+@media screen and (min-width: 768px) {
+    .innerStyle {
+        width: calc(50% - 40px); 
+    }
+}
+                    
+@media screen and (min-width: 992px) {.innerStyle {
+    width: calc(33.33% - 40px); 
+}
+}     
+    
+    
+ h3{color: white;}
+
+.buttonone {background-color: rgb(250, 135, 166); 
+border:rgb(139, 0, 0);
+color: white; 
+padding: 10px 20px; 
+text-align: center;
+
+display: inline-block; 
+font-size: 16px;
+cursor: pointer; 
+border-radius: 5px; 
+                }
