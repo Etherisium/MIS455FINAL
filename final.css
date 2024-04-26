@@ -1,0 +1,43 @@
+header { background-color: rgb(155, 35, 83);
+    padding: 10px ;}
+
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    
+    li a {
+        display: block;
+     
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    
+    li a:hover {
+        background-color: #efa3f1;
+    }
+    
+    
+    ul li a.active {
+        background-color: #ff7dc0;
+    }
+    
+    
+    h1{color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+        
